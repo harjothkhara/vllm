@@ -1,6 +1,8 @@
 name: macOS Apple Silicon Smoke Test
 
 on:
+  push:
+    branches: [ci-proof/macos-constexpr-sqrt]
   schedule:
     # Daily at 2:30 AM UTC
     - cron: '30 2 * * *'
